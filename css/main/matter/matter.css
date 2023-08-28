@@ -1,0 +1,50 @@
+@import url("matter__form-travel.css");
+@import url("matter__user-icons.css");
+
+/*---matter---*/
+.matter__block-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.matter__content {
+    padding: 289px 0px 244px 0;
+    position: relative;
+    z-index: 5;
+    max-width: 844px;
+}
+.matter__title  {
+    margin-bottom: 54px;
+    position: relative;
+}
+.matter__title p {
+    color: var(--main-text-color);
+    font-weight: 900;
+    font-size: 58.506px; 
+    line-height: 116.071%;
+}
+@media (max-width: 767px) {
+    .matter__content {
+        padding: 200px 0px 244px 0;
+    }
+    .matter__title  {
+        margin-bottom: 30px;
+    }
+    .matter__title p {
+        font-size: 48px; 
+    }
+}
+.matter__title-icon {
+    position: absolute;
+    top: -13.3px;
+    left: 0;
+}
+.matter__title-icon img {
+    max-width: 100%;
+}
+/*---FORM-TRAVEL---*/
+.matter__form {
+    margin: 0 0 30px 0;
+}

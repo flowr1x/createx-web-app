@@ -1,0 +1,13 @@
+:root {
+    --main-text-color: #fff;
+    --button-color: #DF6951;
+    --button-color-shadow: #c25a46;
+    --bg-color-shadow: #D9D9D9;
+
+    /* Z-INDEX */
+    --layout-1: 10;
+    --layout-2: 20;
+    --layout-3: 50;
+    --layout-4: 100;
+    --layout-5: 1000;
+}

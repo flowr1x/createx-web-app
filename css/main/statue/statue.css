@@ -1,0 +1,57 @@
+.page__statue {
+}
+.statue {
+    height: 399px;
+    padding: 0 388px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+@media (max-width:1310px) {
+    .statue {
+        padding: 0;
+        justify-content: center;
+    }
+}
+.statue .statue__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -190px;
+    transform: scaleX(-1);
+}
+@media (max-width:992px) {
+    .statue .statue__background {
+        object-position: 0;
+    }
+}
+.statue__text-block {
+    position: relative;
+}
+.statue__text {
+    padding: 0 15px;
+    color: #FFF;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    max-width: 559px;
+}
+.statue__line-icon {
+    position: absolute;
+    bottom: -41px;
+    right: 0;
+}
+@media (max-width:767px) {
+    .statue__text {
+        font-size: 24px;
+    }
+    .statue__line-icon {
+        display: none;
+    }
+}

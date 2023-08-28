@@ -1,0 +1,38 @@
+.explore {
+}
+.explore__content {
+    display: flex;
+    min-height: 399px;
+}
+.explore__box-image {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore__box-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(30, 30, 30, 0.38);
+    z-index: var(--layout-1);
+}
+.explore__title {
+    position: relative;
+    z-index: var(--layout-2);
+}
+.explore__title .title__header {
+    color: #fff;    
+    margin: 0;
+}
+.explore__title .title__label {
+    color: #fff;    
+    line-height: 142.085%; 
+}
+.explore__title .title__button {
+    width: 176.561px;
+}

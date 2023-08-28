@@ -1,0 +1,13 @@
+.form {
+}
+.form__item {
+    display: flex;
+}
+.form__input {
+    background: #EEF;
+    padding: 14px 15px 12px;
+}
+.form__button {
+    height: 52px;
+    margin: 0 0 0 -10px;
+}

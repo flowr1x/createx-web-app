@@ -1,0 +1,113 @@
+.card-travel__box-image {
+    margin: 0 0 38px 0;
+    height: 312px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-travel__places {
+    color: #7D7D7D;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    column-gap: 35px;
+    margin: 0 0 9px 0;
+}
+.card-travel__days {
+    position: relative;
+    padding: 0 0 0 32px;
+}
+.card-travel__days::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url("../../../../image/trending/icons/bag.svg") 0 0 / 100% no-repeat;
+}
+.card-travel__going {
+    position: relative;
+    padding: 0 0 0 28px;
+}
+.card-travel__going::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../../../../image/trending/icons/human.svg") 0 0 / 100% no-repeat;
+}
+.card-travel__countreis {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.card-travel__country {
+    color: #2F2F2F;
+    font-size: 29.033px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.card-travel__rating {
+    display: flex;
+    column-gap: 3px;
+}
+.card-travel__star {
+    width: 16px;
+    height: 16px;
+}
+.card-travel__star img {
+    max-width: 100%;
+}
+.card-travel__location {
+    color: #7D7D7D;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+    padding: 0 0 0 33px;
+    margin: 0 0 9px 0;
+}
+.card-travel__location::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 27.5px;
+    height: 27.5px;
+    background: url("../../../../image/trending/icons/location.svg") 0 0 / 100% no-repeat;
+}
+.card-travel__price {
+    font-weight: 500;
+    display: flex;
+    column-gap: 21px;
+    align-items: flex-end;
+    margin: 0 0 15px 0;
+}
+.card-travel__price-now {
+    color: #DF6951;
+    font-size: 29.033px;
+}
+.card-travel__price-old {
+    color: #7D7D7D;
+    font-size: 22px;
+    text-decoration: line-through;
+}
+.card__trevel__text {
+    color: var(--black, #000);
+    font-size: 12.224px;
+    line-height: 2; 
+    letter-spacing: 0.611px;
+    margin: 0 0 24px 0;
+}
+.card-travel__button {
+    max-width: 134.897px;
+    font-size: 13px;
+    min-height: 43px;
+}

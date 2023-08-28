@@ -1,0 +1,47 @@
+@import "matter/matter.css";
+@import "sponsors/sponsors.css";
+@import "services/services.css";
+@import "honeymoon/honeymoon.css";
+@import "favourite/favourite.css";
+@import "statue/statue.css";
+@import "provide/provide.css";
+@import "explore/explore.css";
+@import "trending/trending.css";
+@import "clients/clients.css";
+
+/* ---PAGE--- */
+.page {
+    flex: 1 1 100%;
+}
+/* ---Basis elements--- */
+.page__matter {
+    position: relative;
+}
+.page__sponsors {
+    padding: 75px 0;
+    background: #F7F7F7;
+}
+.page__services {
+    padding: 110px 0 228px 0;
+}
+.page__honeymoon {
+    padding: 0 0 110px 0;
+}
+.page__favourite {
+    padding: 0 0 127px 0;
+}
+.page__statue {
+    margin: 0 0 175px 0;
+}
+.page__provide {
+    padding: 0 0 249px 0;
+}
+.page__explore {
+    padding: 0 0 112px 0;
+}
+.page__trending {
+    padding: 0 0 96px 0;
+}
+.page__clients {
+    padding: 20px 0 60px 0;
+}

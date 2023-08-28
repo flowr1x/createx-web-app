@@ -1,0 +1,22 @@
+@import url("trending__card-trevel.css");
+
+.trending__title {
+    margin: 0 0 64px 0;
+}
+.trending__content {
+    display: flex;
+    column-gap: 98px;
+}
+.trending__card {
+    flex: 0 1 33.333%;
+    min-width: 290px;
+}
+@media (max-width:1310px) {
+    .trending__content {
+        gap: 60px;
+        flex-wrap: wrap;
+    }
+    .trending__card {
+        flex: 1 1 33.333%;
+    }
+}

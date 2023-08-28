@@ -1,0 +1,12 @@
+@import url("clients__slider.css");
+
+.clients {
+    background-color: #f0f0f0;
+}
+.clients__container {
+}
+.clients__title {
+    margin: 0 0 95px 0;
+}
+.clietns__slider {
+}

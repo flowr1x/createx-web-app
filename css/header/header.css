@@ -1,0 +1,44 @@
+@import url("header__logo.css");
+@import url("header__menu.css");
+@import url("header__button.css");
+
+/* HEADER */
+.header {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    z-index: var(--layout-1);
+}
+.header::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: #333;
+    width: 100%;
+    height: 121px;
+    z-index: var(--layout-2);
+    transition: left .3s ease 0s;
+}
+body._lock .header::before {
+    left: 0;
+}
+.header__container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 67px;
+}
+
+/* ---LOGO--- */
+.header__logo {
+    position: relative;
+    z-index: var(--layout-3);
+}
+/* ---BUTTON--- */
+@media (max-width:906px) {
+    .header__button {
+        display: none;
+    }
+}

@@ -1,0 +1,76 @@
+.title {
+    display: flex;
+    flex-direction: column;
+}
+.title.title-center {
+    align-items: center;
+    text-align: center;
+}
+.title.title-right {
+    align-items: flex-end;
+}
+/* ---TITLE-HEADER--- */
+.title__header {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--button-color);
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    line-height: normal;
+}
+/* ---TITLE-LABEL */
+.title__label {
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #181E4B;
+    line-height: normal;
+    text-transform: capitalize; 
+}
+.title__label:not(:last-child) {
+    margin: 0 0 20px 0;
+}
+/* ---TITLE-TEXT--- */
+.title__text {
+    color: var(--black, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5%  
+}
+.title__text:not(:last-child) {
+    margin: 0 0 30px 0;
+}
+/* ---BUTTON--- */
+.title__button {
+    max-width: 176px;
+}
+/* ---LIST---*/
+.title__list > .title__item:not(:last-child) {
+    margin: 0 0 41px 0;
+}
+.title__item {
+    display: flex;
+    align-items: center;
+}
+.title__toggle {
+    width: 47px;
+    height: 48px;
+    margin: 0 21px 0 0;
+}
+.title__toggle img {
+    width: 100%;
+}
+.title__subtitle {
+    color: var(--textclr, #5E6282);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 124.5%;
+    margin: 0 0 4px 0;
+}
+.title__subtext {
+    color: var(--textclr, #5E6282);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 124.5%;
+}

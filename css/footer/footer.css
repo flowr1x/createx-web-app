@@ -11,6 +11,7 @@
     flex-wrap: wrap;
 }
 .footer__bg {
+    pointer-events: none;
     position: absolute;
     top: 0;
     right: 0;
@@ -50,8 +51,6 @@
 }
 .footer__icon img {
     max-width: 100%;
-}
-.footer__block-links {
 }
 .footer__title {
     color: #181433;

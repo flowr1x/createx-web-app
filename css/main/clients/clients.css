@@ -2,11 +2,23 @@
 
 .clients {
     background-color: #f0f0f0;
+    position: relative;
 }
 .clients__container {
+    padding: 0 35px;
 }
 .clients__title {
     margin: 0 0 95px 0;
 }
-.clietns__slider {
+.clients__block-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 289px;
+}
+@media screen and (max-width: 992px) {
+    .clients__block-image {
+        display: none;
+    }
 }

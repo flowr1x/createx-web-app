@@ -1,15 +1,11 @@
-.slider {
-}
-.slider__container {
+.slider__wrapper {
     background-color: #fff;
     border-radius: 17px;
     max-width: 538px;
-    height: 277px;
-    margin: 0 auto;
+    min-height: 277px;
     position: relative;
-    padding: 92px 72px 73px;
-}
-.slider__content {
+    margin: 0 auto;
+    padding: 92px 72px 33px;
 }
 .slider__card {
     text-align: center;
@@ -30,6 +26,29 @@
 }
 .slider__text {
     margin: 0 0 13px 0;
+    position: relative;
+}
+.slider__text::before {
+    content: "";
+    background: url("../../../image/clients/quotes.svg") center/100% no-repeat;
+    width: 82px;
+    height: 82px;
+    display: inline-block;
+    transform: scale(-1, -1);
+    position: absolute;
+    top: -41px;
+    left: -30px;
+    opacity: 0.1;
+}
+.slider__text::after {
+    content: "";
+    background: url("../../../image/clients/quotes.svg") center/100% no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    top: -5px;
 }
 .slider__author {
     font-weight: 700;
@@ -50,6 +69,7 @@
     left: 0;
     transform: translate(-50%, -50%);
 }
+
 .arrow-right {
     right: 0;
     transform: scaleX(-1) translate(-50%, -50%);

@@ -1,14 +1,19 @@
-.explore {
-}
 .explore__content {
     display: flex;
     min-height: 399px;
+}
+@media screen and (max-width: 767px) {
+    .explore__content {
+        flex-direction: column;
+        min-height: 450px;
+    }
 }
 .explore__box-image {
     flex: 1 1 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 0;
 }
 .explore__box-image::before {
     content: "";
